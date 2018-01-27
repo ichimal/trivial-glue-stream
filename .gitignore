@@ -1,0 +1,13 @@
+.git*
+.hg*
+tags
+*.fas
+*.fasl
+*.lib
+.??".sw?
+*.sw?
+*.diff
+*.log
+,*
+*.org
+
