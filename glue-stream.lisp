@@ -2,7 +2,7 @@
 
 (defpackage glue-stream
   (:use #:cl #:trivial-gray-streams)
-  (:nicknames #:glue)
+  (:nicknames #:gluestrm)
   #+clisp
   (:import-from #:gray
     #:stream-write-char-sequence #:stream-write-byte-sequence

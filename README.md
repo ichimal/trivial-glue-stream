@@ -11,7 +11,7 @@ A gray-streams specific version of two-way-stream
 
 ### *[package nicknames]*
 
-`glue`
+`gluestrm`
 
 ## Author:
 
