@@ -66,8 +66,8 @@
      &rest keys &key &allow-other-keys)
   (declare (ignore keys))
   (ecase (o-o-type stream)
-    (:binary (glue:stream-write-byte-sequence stream sequence start end))
-    (:character (glue:stream-write-char-sequence stream sequence start end)) ))
+    (:binary (stream-write-byte-sequence stream sequence start end))
+    (:character (stream-write-char-sequence stream sequence start end)) ))
 
 (defmethod stream-write-string
     ((stream glue-stream) (string string) &optional start end)
