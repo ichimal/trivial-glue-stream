@@ -16,7 +16,7 @@
   :serial nil
   :depends-on (:trivial-gray-streams)
   :components
-    (:file #:glue-stream) )
+    ((:file #:glue-stream)) )
 
 (defmethod perform ((op test-op)
                     (component (eql (find-system :trivial-glue-stream))) )
