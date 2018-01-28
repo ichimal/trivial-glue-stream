@@ -3,6 +3,10 @@
 (defpackage glue-stream
   (:use #:cl #:trivial-gray-streams)
   (:nicknames #:glue)
+  #+clisp
+  (:import-from #:gray
+    #:stream-write-char-sequence #:stream-write-byte-sequence
+    #:stream-read-char-sequence #:stream-read-byte-sequence )
   (:export
     #:glue-stream #:make-glue-stream
     #:stream-read-byte #:stream-read-byte-sequence
