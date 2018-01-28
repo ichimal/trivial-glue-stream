@@ -10,7 +10,6 @@
   :version "0.1"
   :maintainer "SUZUKI Shingo"
   :author "SUZUKI Shingo"
-  :mailto "r2.ichimal@gmail.com"
   :licence "MIT"
   :description
     "glue-stream, a gray-stream specific two-way-stream implementation"
