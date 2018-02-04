@@ -1,4 +1,4 @@
-Copyright (C) 2014 Shingo SUZUKI,
+Copyright (C) 2018 Shingo SUZUKI,
 https://github.com/ichimal/trivial-glue-stream.git
 
 Permission is hereby granted, free of charge, to any person obtaining
